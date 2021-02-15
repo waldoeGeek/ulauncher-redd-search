@@ -1,0 +1,43 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Reddit extension",
+  "description": "Search Reddit",
+  "developer_name": "waldoeGeek",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "reddit_kw",
+      "type": "keyword",
+      "max_results": 3,
+      "name": "Demo",
+      "description": "Search Reddit",
+      "default_value": "sn"
+    },
+    {
+		"id": "show_thumbnails",
+		"type": "select",
+		"name": "Show thumbnails",
+		"description": "will add time to load",
+		"options": ["true", "false"],
+		"default_value": "true"
+	},
+  {
+      "id": "max_results",
+      "type": "input",
+      "name": "Maximum results results to display",
+      "default_value": "4"
+  },
+  {
+    "__comment__": "Implement later, having trouble with url",
+    "id": "result_types",
+    "type": "select",
+    "name": "result types",
+    "description": "Choose to search everything, subs, or users",
+    "options": ["all", "subs", "users"],
+    "default_value": "all"
+  }
+  ]
+}
