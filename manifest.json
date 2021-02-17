@@ -9,34 +9,45 @@
   },
   "preferences": [
     {
-      "id": "reddit_kw",
+      "id": "kw",
       "type": "keyword",
-      "max_results": 3,
-      "name": "Launcher",
+      "name": "Reddit Search",
       "description": "Search Reddit",
-      "default_value": "sn"
+      "default_value": "rt"
     },
     {
-		"id": "show_thumbnails",
-		"type": "select",
-		"name": "Show thumbnails",
-		"description": "will add time to load",
-		"options": ["true", "false"],
-		"default_value": "true"
-	},
-  {
-      "id": "max_results",
-      "type": "input",
-      "name": "Maximum results results to display",
-      "default_value": "4"
-  },
-  {
+      "id": "rtu_kw",
+      "type": "keyword",
+      "name": "Reddit User Search",
+      "default_value": "rtu"
+    },
+    {
+      "id": "rtr_kw",
+      "type": "keyword",
+      "name": "Reddit Subreddit Search",
+      "default_value": "rtr"
+    },
+    {
+  		"id": "show_thumbnails",
+  		"type": "select",
+  		"name": "Show thumbnails",
+  		"description": "will add time to load",
+  		"options": ["true", "false"],
+  		"default_value": "true"
+	  },
+    {
+     "id": "max_results",
+     "type": "input",
+     "name": "Maximum results results to display",
+     "default_value": "4"
+    },
+    {
     "id": "result_types",
     "type": "select",
     "name": "result types",
     "description": "Choose to search everything, subs, or users",
     "options": ["all", "sub", "user"],
     "default_value": "all"
-  }
+    }
   ]
 }
