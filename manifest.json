@@ -12,7 +12,7 @@
       "id": "reddit_kw",
       "type": "keyword",
       "max_results": 3,
-      "name": "Demo",
+      "name": "Launcher",
       "description": "Search Reddit",
       "default_value": "sn"
     },
@@ -31,12 +31,11 @@
       "default_value": "4"
   },
   {
-    "__comment__": "Implement later, having trouble with url",
     "id": "result_types",
     "type": "select",
     "name": "result types",
     "description": "Choose to search everything, subs, or users",
-    "options": ["all", "subs", "users"],
+    "options": ["all", "sub", "user"],
     "default_value": "all"
   }
   ]
